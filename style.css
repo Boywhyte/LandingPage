@@ -64,6 +64,7 @@ h3{
     align-self: center;
     font-size: 36px;
     font-weight: 400;
+    padding: 0;
 }
 img{
     width: 200px;
@@ -99,5 +100,22 @@ img{
 /* call to action section */
 .call-to-action{
     display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    margin:120px 100px;
+    align-items: center;
+    color: white;
+}
+.textaction{
+    display: flex;
     flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+    align-items: center;
 }
